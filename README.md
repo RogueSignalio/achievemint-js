@@ -18,7 +18,14 @@ Use module in a project
 
 To use this client, you have to have an Achieve Mint account and create an API App via the user dashboard.
 
-This module uses dotenv to store your app key and secret
+This module uses dotenv to store your app key and secret, create a .env file in the root of your project with the following values:
+CLIENT_ID = yourClientId
+CLIENT_SECRET = yourClientSecret
+API_URL = https://the-api.url
+
+Or you can include the secret and such in other ways
+
+
 
 Follow the example in the tests/test_client.js file:
 

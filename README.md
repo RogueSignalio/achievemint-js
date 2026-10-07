@@ -21,7 +21,6 @@ To use this client, you have to have an Achieve Mint account and create an API A
 This module uses dotenv to store your app key and secret, create a .env file in the root of your project with the following values:
 CLIENT_ID = yourClientId
 CLIENT_SECRET = yourClientSecret
-API_URL = https://the-api.url
 
 Or you can include the secret and such in other ways
 
@@ -37,7 +36,6 @@ import { Client } from 'achievemint';
 const client = new Client(
 	process.env.CLIENT_ID,
 	process.env.CLIENT_SECRET,
-	process.env.API_URL
 );
 
 (async () => {

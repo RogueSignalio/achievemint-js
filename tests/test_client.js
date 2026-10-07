@@ -4,8 +4,7 @@ import { Client } from '../index.js';
 // Initialize the API client
 const client = new Client(
 	process.env.CLIENT_ID,
-	process.env.CLIENT_SECRET,
-	process.env.API_URL
+	process.env.CLIENT_SECRET
 );
 
 (async () => {
